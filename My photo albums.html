@@ -3,34 +3,42 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+	<!--网页的标签名称-->
 	<title>My photo albums</title>
+	<!--引用css里的字体样式、排版格式-->
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-
+<!--插入固定在页面顶部的导航条-->
 <nav class="navbar navbar-default navbar-fixed-top">
 	<div class="container">
+		<!--基本导航条，包含标题和列表-->
 		<div class="navbar-header">
+			<!--在页面左上角导航条插入小图，点击它跳转到当前页面-->
 			<a href="#" class="small"><img src="img/tx2.jpg" ></a>
+			<!--当屏幕小于一定尺寸的时候，导航条会自动隐藏，变成三个“横线”的按钮显示在导航条上，点击这个按钮，就可以显示出导航的菜单-->
 			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
 		</div>
+		<!--基本导航条，包含列表和标题-->
 		<div class="collapse navbar-collapse" id="navbar-collapse">
+			<!--导航按钮右对齐-->
 			<ul class="nav navbar-nav navbar-right">
+				<!--四个导航按钮分别链接到四个网页-->
 				<li><a href="index.html"><span class="glyphicon glyphicon-home"></span> 个人主页</a></li>
 				<li><a href="My blog.html"><span class="glyphicon glyphicon-list"></span> 我的博客</a></li>
 				<li class="active"><a href="My photo albums.html"><span class="glyphicon glyphicon-fire"></span> 我的相册</a></li>
-                <li><a href="How to make a webpage for yourself.html"><span class="glyphicon glyphicon-question-sign"></span>制作个人主页的方法</a></li>
+                                <li><a href="How to make a webpage for yourself.html"><span class="glyphicon glyphicon-question-sign"></span>制作个人主页的方法</a></li>
 			</ul>	
 		</div>
 	</div>
 </nav>
-
+<!--100%全屏，没有圆角-->
 <div class="jumbotron">
 	<div class="container">
 		<hgroup>
@@ -39,114 +47,160 @@
 		</hgroup>
 	</div>
 </div>
-
+<!--插入相册集合-->
 <div id="case">
 	<div class="container">
 		<div class="row">
+			<!--响应式大屏一行显示4张图片，中屏一行显示3张图片，小屏一行显示2张图片，超小屏一行显示1张图片-->
 			<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+				<!--插入缩略图-->
 				<div class="thumbnail">
+					<!--插入图片-->
 					<img src="img/txx3.JPG" alt="">
+					<!--插说明入-->
 					<div class="caption">
 						<h4>梵高</h4>
 						<p>遇到大师的人形画板一定要合照一下。</p>
 					</div>
 				</div>
 			</div>
+			<!--响应式大屏一行显示4张图片，中屏一行显示3张图片，小屏一行显示2张图片，超小屏一行显示1张图片-->
 			<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+				<!--插入缩略图-->
 				<div class="thumbnail">
+					<!--插入图片-->
 					<img src="img/txx4.JPG" alt="">
+					<!--插说明入-->
 					<div class="caption">
 						<h4>花轮同学</h4>
 						<p>小时候看花轮同学总是觉得他又奇怪又有趣，后来长大了再看觉得他的眼神简直不能更傲娇，尤其这一张。</p>
 					</div>
 				</div>
 			</div>
+			<!--响应式大屏一行显示4张图片，中屏一行显示3张图片，小屏一行显示2张图片，超小屏一行显示1张图片-->
 			<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+				<!--插入缩略图-->
 				<div class="thumbnail">
+					<!--插入图片-->
 					<img src="img/txx1.JPG" alt="">
+					<!--插说明入-->
 					<div class="caption">
 						<h4>向日葵</h4>
 						<p>我最喜欢的画（这一副是柯南剧场版里面的）。</p>
 					</div>
 				</div>
 			</div>
+			<!--响应式大屏一行显示4张图片，中屏一行显示3张图片，小屏一行显示2张图片，超小屏一行显示1张图片-->
 			<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+				<!--插入缩略图-->
 				<div class="thumbnail">
+					<!--插入图片-->
 					<img src="img/txx2.JPG" alt="">
+					<!--插说明入-->
 					<div class="caption">
 						<h4>名侦探柯南</h4>
 						<p>小时候特别喜欢的动漫，看到柯南跟怪盗基德假扮的新一同框总觉得莫名的有趣。</p>
 					</div>
 				</div>
 			</div>
-			
+			<!--响应式大屏一行显示4张图片，中屏一行显示3张图片，小屏一行显示2张图片，超小屏一行显示1张图片-->
 			<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+				<!--插入缩略图-->
 				<div class="thumbnail">
+					<!--插入图片-->
 					<img src="img/txx5.JPG" alt="">
+					<!--插说明入-->
 					<div class="caption">
 						<h4>中山大学北校区</h4>
 						<p>最好的朋友在那里念书，学医学。觉得她们的教学楼名字都很有趣。</p>
 					</div>
 				</div>
 			</div>
+			<!--响应式大屏一行显示4张图片，中屏一行显示3张图片，小屏一行显示2张图片，超小屏一行显示1张图片-->
 			<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+				<!--插入缩略图-->
 				<div class="thumbnail">
+					<!--插入图片-->
 					<img src="img/txx6.JPG" alt="">
+					<!--插说明入-->
 					<div class="caption">
 						<h4>太平山顶的夜景</h4>
 						<p>夜晚的山顶雾气弥漫，有一种朦胧虚无的美。我站在山顶向下看，维多利亚港灯火通明，远处的灯光连成一片。用望远镜可以清晰地看到远处的大楼。</p>
 					</div>
 				</div>
 			</div>
+			<!--响应式大屏一行显示4张图片，中屏一行显示3张图片，小屏一行显示2张图片，超小屏一行显示1张图片-->
 			<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+				<!--插入缩略图-->
 				<div class="thumbnail">
+					<!--插入图片-->
 					<img src="img/txx7.JPG" alt="" class="top-fixed">
+					<!--插说明入-->
 					<div class="caption">
 						<h4>觉得这张拍的很美</h4>
 						<p>香港海洋公园四面透风的摩天轮上，感受着空气中的潮湿。</p>
 					</div>
 				</div>
 			</div>
+			<!--响应式大屏一行显示4张图片，中屏一行显示3张图片，小屏一行显示2张图片，超小屏一行显示1张图片-->
 			<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+				<!--插入缩略图-->
 				<div class="thumbnail">
+					<!--插入图片-->
 					<img src="img/txx11.JPG" alt="">
+					<!--插说明入-->
 					<div class="caption">
 						<h4>我和我可爱的室友</h4>
 						<p>经常一起结伴去看电影的好伙伴，在某一次看电影回来的路上，公交堵车，她倚在我的肩膀上睡着了，我觉得好可爱，于是偷偷拍了下来。</p>
 					</div>
 				</div>
 			</div>
+			<!--响应式大屏一行显示4张图片，中屏一行显示3张图片，小屏一行显示2张图片，超小屏一行显示1张图片-->
 			<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+				<!--插入缩略图-->
 				<div class="thumbnail">
+					<!--插入图片-->
 					<img src="img/txx8.JPG" alt="">
+					<!--插说明入-->
 					<div class="caption">
 						<h4>来自意大利的少年</h4>
 						<p>小时候就很喜欢看樱桃小丸子，放假自己一个人在家看得津津有味的，第一次看它的剧场版，觉得主题曲非常好听，故事也有一些感人，一定要去电影院里捧场！</p>
 					</div>
 				</div>
 			</div>
+			<!--响应式大屏一行显示4张图片，中屏一行显示3张图片，小屏一行显示2张图片，超小屏一行显示1张图片-->
 			<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+				<!--插入缩略图-->
 				<div class="thumbnail">
+					<!--插入图片-->
 					<img src="img/txx9.JPG" alt="">
+					<!--插说明入-->
 					<div class="caption">
 						<h4>梅西一家</h4>
 						<p>从2010年世界杯看过一场阿根廷队的比赛开始喜欢他，一家三口看起来非常幸福。可是前些日子他又一次带着阿根廷只差一步之遥就赢得美洲杯冠军。倒在最后一步的次数太多，他累了，他退出了国家队，不知道以后还有没有机会看到他重返国家队的赛场。</p>
 					</div>
 				</div>
 			</div>
+			<!--响应式大屏一行显示4张图片，中屏一行显示3张图片，小屏一行显示2张图片，超小屏一行显示1张图片-->
 			<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+				<!--插入缩略图-->
 				<div class="thumbnail">
+					<!--插入图片-->
 					<img src="img/txx10.JPG" alt="">
+					<!--插说明入-->
 					<div class="caption">
 						<h4>小时候的我</h4>
 						<p>依稀可以看得出我的影子，还是觉得小时候的自己比较可爱。</p>
 					</div>
 				</div>
 			</div>
-			
+			<!--响应式大屏一行显示4张图片，中屏一行显示3张图片，小屏一行显示2张图片，超小屏一行显示1张图片-->
 			<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+				<!--插入缩略图-->
 				<div class="thumbnail">
+					<!--插入图片-->
 					<img src="img/txx12.JPG" alt="">
+					<!--插说明入-->
 					<div class="caption">
 						<h4>爸爸为我拍的相片</h4>
 						<p>和爸爸妈妈待在一起的时光总是值得珍惜呀。</p>
@@ -156,7 +210,7 @@
 		</div>
 	</div>
 </div>
-
+<!--页脚-->
 <footer id="footer">
 	<div class="container">
 		<p>邮箱：1047209869@qq.com</p>
